@@ -1,0 +1,42 @@
+.home-container {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #6d7a77, #6d7a77);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #042e0a, #440303, #aa1f1f, #6b0606 ,#03450b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1000px;
+}
+
+.dashboard-container a {
+  text-decoration: none;
+}
+
+.farmer-image {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.farmer-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
