@@ -4,14 +4,14 @@ function DashboardCard({ title, description }) {
   return (
     <div
       style={{
-        background: "linear-gradient(135deg, #89f7fe, #66a6ff)",
+        background: "linear-gradient(135deg, #35b359ff, #7cd0e6ff)",
         borderRadius: "15px",
         padding: "20px",
         width: "250px",
         height: "150px",
-        boxShadow: "0px 6px 15px rgba(0,0,0,0.2)",
+        boxShadow: "0px 6px 15px rgba(12, 11, 11, 0.2)",
         transition: "transform 0.3s",
-        color: "#fff",
+        color: "#0f0f0fff",
         fontWeight: "bold",
       }}
       onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
